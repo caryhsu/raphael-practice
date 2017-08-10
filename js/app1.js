@@ -1,10 +1,8 @@
-"use strict";
-/// <reference path="../node_modules/@types/raphael/index.d.ts" />
+
 var w = window.innerWidth;
 var h = window.innerHeight;
 var paper = Raphael("wrap", w, h);
-// 請在下面撰寫您的程式碼
-// draw some random vectors:
+
 var path = "M " + w / 2 + " " + h / 2;
 for (var i = 0; i < 10; i++) {
     var x = Math.random() * w;
@@ -26,4 +24,3 @@ paper.path(path)
 paper.text(200, 100, "Hello world!2")
     .attr("font", "30px Arial")
     .attr("fill", "#ffffff");
-//# sourceMappingURL=app1.js.map
